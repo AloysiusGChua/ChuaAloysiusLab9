@@ -2,9 +2,9 @@ package com.chua.aloysius;
 
 public class Inputs {
     String Fullname, Gender;
-    Integer Age;
+    int Age;
 
-    public Inputs(String Fullname, Integer Age, String Gender){
+    public Inputs(String Fullname, int Age, String Gender){
         this.Fullname = Fullname;
         this.Age = Age;
         this.Gender = Gender;
