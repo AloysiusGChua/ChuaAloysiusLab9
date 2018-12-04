@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void addRecord (View v){
+    public void addInput (View v){
         String fname = Fullname.getText().toString().trim();
         int age = Integer.parseInt(Age.getText().toString().trim());
         String gender = Gender.getText().toString().trim();
